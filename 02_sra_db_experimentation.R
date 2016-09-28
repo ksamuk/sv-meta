@@ -2,12 +2,10 @@
 # libraries
 ##################################################  
 
-source("https://bioconductor.org/biocLite.R")
-biocLite("SRAdb")
+#source("https://bioconductor.org/biocLite.R")
+#biocLite("SRAdb")
 
 library("SRAdb")
-browseVignettes("SRAdb")
-library(SRAdb)
 
 ################################################## 
 # initializing SRAdb
@@ -24,4 +22,4 @@ if(!file.exists(sqlfile)){
 	
 }
 
-sra_con <- dbConnect(SQLite(),sqlfile)
+#sra_con <- dbConnect(SQLite(),sqlfile)
